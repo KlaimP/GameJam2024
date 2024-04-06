@@ -1,10 +1,10 @@
 extends Area2D
 
 
-var isLighted: bool = true
-var isTaken: bool = false
+var lightPower: int = 0
+var building: Build
 
-var connectedTiles: Dictionary
+var connectedTiles: Array
 
 
 
